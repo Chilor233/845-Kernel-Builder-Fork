@@ -1,4 +1,4 @@
-name: "Build kernels"
+name: "Build main kernels"
 
 on:
   schedule:
