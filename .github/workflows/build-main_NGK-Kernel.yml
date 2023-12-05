@@ -1,4 +1,4 @@
-name: "Build NGK kernels"
+name: "Build-main NGK kernels"
 
 on:
   workflow_dispatch:
