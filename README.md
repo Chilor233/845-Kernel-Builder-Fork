@@ -10,7 +10,7 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/Xiaomi-sdm845-KSU/Android-Kernel-Builder)
 <br>
 
-这是个 Github Action 每日自动构建一次小米骁龙845系列机型KernelSU内核,自动同步最新KernelSU
+这个GitHub action使用normal运行一次得到最新稳定版的kernelsu，使用main运行一次得到最新开发版的kernelsu。
 
 包含: MI 8, MIX2S, POCOPHONE F1, MI 8UD, MIX 3, MI 8 Explorer Edition
 <br>
