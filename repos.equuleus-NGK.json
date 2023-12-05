@@ -2,15 +2,15 @@
   {
     "kernelSource": {
       "name": "NGK_android_kernel_xiaomi_sdm845",
-      "repo": "https://github.com/Xiaomi-sdm845-KSU/NGK_android_kernel_xiaomi_sdm845",
-      "branch": "t-caf-ksu",
+      "repo": "https://github.com/diyishengqing/NGK_android_kernel_xiaomi_sdm845",
+      "branch": "ngk",
       "device": "equuleus",
       "defconfig": "nogravity-equuleus_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/Xiaomi-sdm845-KSU/android-kernel-tools",
+        "repo": "https://github.com/diyishengqing/android-kernel-tools",
         "branch": "clang13",
         "name": "clang13",
         "binPath": ["./bin"]
@@ -38,7 +38,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/Xiaomi-sdm845-KSU/AnyKernel3",
+      "repo": "https://github.com/diyishengqing/AnyKernel3",
       "branch": "master"
     }
   }
