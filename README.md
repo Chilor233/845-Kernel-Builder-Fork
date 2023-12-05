@@ -10,7 +10,10 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/Xiaomi-sdm845-KSU/Android-Kernel-Builder)
 <br>
 
-这个GitHub action使用normal运行一次得到最新稳定版的kernelsu，使用main运行一次得到最新开发版的kernelsu。
+这个GitHub action包含了官方内核和ngk内核
+
+使用normal运行一次得到最新稳定版的kernelsu，使用main运行一次得到最新开发版的kernelsu。
+
 
 包含: MI 8, MIX2S, POCOPHONE F1, MI 8UD, MIX 3, MI 8 Explorer Edition
 <br>
@@ -29,6 +32,7 @@ MIUI rom 建议选择 机型代号-Xiaomi_Kernel_OpenSource-sdm845_构建时间.
 类原生rom 建议选择 机型代号-NGK_android_kernel_xiaomi_sdm845_构建时间.zip
 
 如: 小米 MIX3 类原生rom 选择 perseus-NGK_android_kernel_xiaomi_sdm845_********.zip
+
 mix3使用twrp刷入报错请使用手动修补
 
 
