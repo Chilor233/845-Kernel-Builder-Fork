@@ -231,6 +231,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: ${{ env.useAnykernel == 'true' && env.release == 'true' }}
         with:
-          tag_name: MIUI&NGK_Kernel_v${{ env.builddate }}.${{ github.run_number }}
+          tag_name: MIUI&NGK_normal_Kernel_v${{ env.builddate }}.${{ github.run_number }}
           files: "${{ env.WORKSPACE }}/${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}_${{ env.builddate }}.zip"
           generate_release_notes: true
