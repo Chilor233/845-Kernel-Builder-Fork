@@ -1,4 +1,4 @@
-name: "Build MIUI kernels"
+name: "Build-main MIUI kernels"
 
 on:
   workflow_dispatch:
