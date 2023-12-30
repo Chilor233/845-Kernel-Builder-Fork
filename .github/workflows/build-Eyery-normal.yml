@@ -1,4 +1,4 @@
-name: "Build normal kernels"
+name: "Build Eyery normal kernels"
 
 on:
   workflow_dispatch:
