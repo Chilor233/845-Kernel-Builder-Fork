@@ -7,7 +7,7 @@
       "device": "dipper",
       "defconfig": "dipper_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/diyishengqing/android-kernel-tools",
