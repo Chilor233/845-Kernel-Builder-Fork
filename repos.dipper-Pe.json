@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "pe_android_kernel_xiaomi_sdm845",
-      "repo": "https://github.com/diyishengqing/kernel_xiaomi_dipper-pe",
-      "branch": "ten",
+      "repo": "https://github.com/diyishengqing/Xiaomi_Kernel_OpenSource-sdm845",
+      "branch": "88-zstd",
       "device": "dipper",
-      "defconfig": "dipper_defconfig"
+      "defconfig": "dipper_pe_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
