@@ -14,7 +14,7 @@
 
 使用normal运行一次得到最新稳定版的KernelSU，使用main运行一次得到最新开发版的KernelSU
 
-*注：[KernelSU 1.0 及更高版本已经不再支持非 GKI 内核](https://github.com/tiann/KernelSU/issues/1705)，使用此Action编译的内核KernelSU版本均为**v0.9.5***
+*注：[KernelSU 1.0 及更高版本已经不再支持非 GKI 内核](https://github.com/tiann/KernelSU/issues/1705)，使用此 Action 编译的内核 KernelSU 版本均为 **v0.9.5***
 
 
 包含: MI 8, MIX2S, POCOPHONE F1, MI 8UD, MIX 3, MI 8 Explorer Edition
