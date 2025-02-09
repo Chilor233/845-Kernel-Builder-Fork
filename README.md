@@ -10,12 +10,16 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/Xiaomi-sdm845-KSU/Android-Kernel-Builder)
 <br>
 
-这个GitHub action包含了官方内核和ngk内核
+这个GitHub Action包含了官方内核和ngk内核
 
-使用normal运行一次得到最新稳定版的kernelsu，使用main运行一次得到最新开发版的kernelsu。
+使用normal运行一次得到最新稳定版的KernelSU，使用main运行一次得到最新开发版的KernelSU
+
+*注：[KernelSU 1.0 及更高版本已经不再支持非 GKI 内核](https://github.com/tiann/KernelSU/issues/1705)，使用此Action编译的内核KernelSU版本均为**v0.9.5***
 
 
 包含: MI 8, MIX2S, POCOPHONE F1, MI 8UD, MIX 3, MI 8 Explorer Edition
+
+*2025.2.9注：已更新workflow，使其~~应该~~能够正常运行*
 <br>
 </div>
 
@@ -25,16 +29,26 @@
 # 内核选择
 
 
-MIUI rom 建议选择 机型代号-Xiaomi_Kernel_OpenSource-sdm845_构建时间.zip
+MIUI ROM 建议选择 机型代号-Xiaomi_Kernel_OpenSource-sdm845_构建时间.zip
 
 如: 小米 MIX3 MIUI 12.5.1 选择 perseus-Xiaomi_Kernel_OpenSource-sdm845_********.zip
 
-类原生rom 建议选择 机型代号-NGK_android_kernel_xiaomi_sdm845_构建时间.zip
+类原生ROM 建议选择 机型代号-NGK_android_kernel_xiaomi_sdm845_构建时间.zip
 
-如: 小米 MIX3 类原生rom 选择 perseus-NGK_android_kernel_xiaomi_sdm845_********.zip
+如: 小米 MIX3 类原生ROM 选择 perseus-NGK_android_kernel_xiaomi_sdm845_********.zip
 
-mix3使用twrp刷入报错请使用手动修补
+MIX3使用TWRP刷入报错请使用手动修补
 
+
+---
+
+
+# 使用方法
+
+
+Fork 本仓库后在 Actions 页面选择选择适合您的 workflow，之后点击右侧的 `Run workflow` 按钮运行编译
+
+若编译成功，可前往 Release 页面下载对应的 zip ，在 TWRP 等 Recovery 下刷入即可
 
 ---
 
